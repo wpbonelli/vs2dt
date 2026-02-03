@@ -1,6 +1,6 @@
 # VS2DT Version 3.3
 
-[![vs2dt compiler checks](https://github.com/MODFLOW-ORG/vs2dt/actions/workflows/cicd.yml/badge.svg)](https://github.com/MODFLOW-ORG/vs2dt/actions/workflows/cicd.yml)
+[![vs2dt compiler checks](https://github.com/MODFLOW-ORG/vs2dt/actions/workflows/ci.yml/badge.svg)](https://github.com/MODFLOW-ORG/vs2dt/actions/workflows/ci.yml)
 
 ## Overview of VS2DT
 

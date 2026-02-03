@@ -1,4 +1,4 @@
-name: vs2dt ci/cd
+name: vs2dt checks
 on:
   # run at 6 AM UTC every day
   schedule:
