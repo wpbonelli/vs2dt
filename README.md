@@ -1,6 +1,6 @@
-# VS2DT Version 3.3
+# VS2DT
 
-[![vs2dt compiler checks](https://github.com/MODFLOW-ORG/vs2dt/actions/workflows/ci.yml/badge.svg)](https://github.com/MODFLOW-ORG/vs2dt/actions/workflows/ci.yml)
+[![vs2dt CI/CD](https://github.com/MODFLOW-ORG/vs2dt/actions/workflows/ci.yml/badge.svg)](https://github.com/MODFLOW-ORG/vs2dt/actions/workflows/ci.yml)
 
 ## Overview of VS2DT
 
@@ -21,8 +21,6 @@ modified for particular applications.
 
 ## How to Cite VS2DT
 
-### Report Citations
-
 Healy, R.W., and Ronan, A.D., 1996, Documentation of computer program VS2DH for simulation of energy transport in variably saturated porous media -- modification of the U.S. Geological Survey's computer program VS2DT: U.S. Geological Survey Water-Resources Investigations Report 96-4230, 36 p., https://doi.org/10.3133/wri964230
 
 Healy, R.W., 1990, Simulation of solute transport in variably saturated porous media with supplemental information on modifications to the U.S. Geological Survey's Computer Program VS2D: U.S. Geological Survey Water-Resources Investigations Report 90-4025, 125 p., https://doi.org/10.3133/wri904025
@@ -31,4 +29,4 @@ Lappala, E.G., Healy, R.W., and Weeks, E.P., 1987, Documentation of computer pro
 
 ## Disclaimer
 
-This software is preliminary or provisional and is subject to revision. It is being provided to meet the need for timely best science. The software has not received final approval by the U.S. Geological Survey (USGS). No warranty, expressed or implied, is made by the USGS or the U.S. Government as to the functionality of the software and related material nor shall the fact of release constitute any such warranty. The software is provided on the condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from the authorized or unauthorized use of the software.
+This repository is provided as a courtesy. Modifications may have been made, e.g. to version strings, or syntax/language constructs for compatibility with modern compilers and build systems. Use this resource at your own risk; it should be regarded as provisional and not as an authoritative substitute for the official software release by the original authors.

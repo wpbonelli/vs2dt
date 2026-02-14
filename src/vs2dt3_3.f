@@ -70,6 +70,7 @@ C
       include 'd_rprop.inc'
       include 'd_scon.inc'
       IMPLICIT DOUBLE PRECISION (A-H,P-Z)
+      CHARACTER,PARAMETER :: VERSTR*20='3.3'
 c      include 'c_rspac.inc'
 c      include 'c_kcon.inc'
 c      include 'c_mprop.inc'
@@ -209,7 +210,7 @@ c
       else
        o12p = .FALSE.
       end if
-      WRITE (06,4060)
+      WRITE (06,4060) VERSTR
       WRITE (06,4070) TITL,TMAX,TUNIT,STIM,NRECH,NUMT,NLY,NXR
       WRITE(06,4080) ANG
       IF(ANG.GT.90.0D0.OR.ANG.LT.-90.0D0)THEN
@@ -503,7 +504,7 @@ C
  4040 FORMAT(5X,32HCOORDINATE SYSTEM IS RECTANGULAR)
  4050 FORMAT(5X,27HCOORDINATE SYSTEM IS RADIAL)
  4060 FORMAT(35X,60('+')/35X,'+',26X,6H VS2DT,26X,'+'/35X,
-     &'+',23x,' VERSION 3.3',23x,'+'/35x,
+     &'+',23x,' VERSION ',A,23x,'+'/35x,
      &'+',11X,'SIMULATION OF 2-DIMENSIONAL VARIABLY',11X,'+'/
      &35X,'+',12X,'SATURATED FLOW AND SOLUTE TRANSPORT',11X,'+'
      &/35X,'+',11X,'        THROUGH POROUS MEDIA.       ',11X,'+'

@@ -1,4 +1,4 @@
-name: vs2dt checks
+name: vs2dt CI/CD
 on:
   # run at 6 AM UTC every day
   schedule:
@@ -18,7 +18,7 @@ env:
   PROGRAM_NAME: vs2dt
 jobs:
   build:
-    name: Build and Test on ${{ matrix.os }} with ${{ matrix.compiler }} ${{ matrix.version }}
+    name: ${{ matrix.os }} ${{ matrix.compiler }} ${{ matrix.version }}
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
@@ -180,6 +180,6 @@ jobs:
           tag: v${{ env.PROGRAM_VERSION }}
           name: "${{ env.PROGRAM_NAME }} executables"
           artifacts: "${{ env.DIST }}/*"
-          draft: false
+          draft: true
           allowUpdates: true
           token: ${{ secrets.GITHUB_TOKEN }}
