@@ -2,6 +2,8 @@
 
 [![vs2dt CI/CD](https://github.com/MODFLOW-ORG/vs2dt/actions/workflows/ci.yml/badge.svg)](https://github.com/MODFLOW-ORG/vs2dt/actions/workflows/ci.yml)
 
+[USGS Release Page](https://water.usgs.gov/water-resources/software/VS2DI/)
+
 ## Overview of VS2DT
 
 Computer program VS2DT solves problems of water and solute movement
@@ -27,6 +29,11 @@ Healy, R.W., 1990, Simulation of solute transport in variably saturated porous m
 
 Lappala, E.G., Healy, R.W., and Weeks, E.P., 1987, Documentation of computer program VS2D to solve the equations of fluid flow in variably saturated porous media: U.S. Geological Survey Water-Resources Investigations Report 83-4099, 184 p., https://doi.org/10.3133/WRI834099
 
+## Source
+
+Source code retrieved from https://water.usgs.gov/water-resources/software/VS2DI/vs2dt3_3.zip.
+
 ## Disclaimer
 
-This repository is provided as a courtesy. Modifications may have been made, e.g. to version strings, or syntax/language constructs for compatibility with modern compilers and build systems. Use this resource at your own risk; it should be regarded as provisional and not as an authoritative substitute for the official software release by the original authors.
+This repository is provided as a courtesy and is not actively maintained. Modifications to the original source may have been made. Use this resource at your own risk; it should be regarded as provisional and not as an authoritative substitute for the official software release by the original authors.
+
